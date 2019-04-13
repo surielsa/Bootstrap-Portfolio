@@ -4,7 +4,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  background-image: url(../images/gravel.png);
 }
 
 html {
@@ -30,7 +30,7 @@ main {
 
 .block-header {
   /* Typography */
-  color: #4aaaa5;
+  color: #7c2da1;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
@@ -45,12 +45,12 @@ main {
   color: #fff;
 
   /* Visual */
-  background: #4aaaa5;
+  background: #7c2da1;
 }
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #7c2da1;
 }
 
 .navbar {
@@ -61,7 +61,7 @@ main {
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4aaaa5;
+    background-color: #7c2da1;
   }
 }
 /* END NAV */
@@ -117,7 +117,7 @@ main {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #7c2da1;
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
@@ -132,7 +132,7 @@ main {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #7c2da1;
 }
 
 #about-image {
@@ -173,7 +173,7 @@ main {
   color: #fff;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #7c2da1;
   border: 0;
 }
 
@@ -181,4 +181,13 @@ main {
   opacity: .7;
 }
 
+#panel-body {
+  float: right;
+}
+
+#icon{
+  width: 20px;
+  height: 20px;
+
+}
 /* END CONTACT FORM PAGE */
